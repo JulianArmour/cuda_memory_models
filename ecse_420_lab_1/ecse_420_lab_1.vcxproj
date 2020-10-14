@@ -12,21 +12,9 @@
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="sequential.cu" />
-    <CudaCompile Include="test.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="compareResults.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input_10000.txt" />
-    <Text Include="input_100000.txt" />
-    <Text Include="input_1000000.txt" />
-    <Text Include="sol_10000.txt" />
-    <Text Include="sol_100000.txt" />
-    <Text Include="sol_1000000.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="test.cuh" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BC47ABFD-5F56-4FF4-8CDE-E92A0B578745}</ProjectGuid>
